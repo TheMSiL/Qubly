@@ -1,0 +1,240 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .main-banner {
+    padding: 170px 0 220px; }
+
+  #reviews {
+    padding: 200px 0; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .main-banner {
+    padding: 100px 0 160px; }
+
+  .main-banner .mb-info > h1 {
+    font-size: 45px; }
+
+  .main-banner .mb-info > .descr {
+    margin-bottom: 20px; }
+
+  section {
+    padding: 80px 0; }
+
+  #advantages .row_adv .item_adv > .heading {
+    margin: 16px 0; }
+
+  #reviews {
+    padding: 160px 0; }
+
+  .pf_info {
+    margin-bottom: 120px; }
+
+  #footer .row_flex .col_footer_1,
+  #footer .row_flex .col_footer_3 {
+    width: 48%;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+
+  #footer .row_flex .col_footer_2 {
+    width: 100%;
+    margin-bottom: 30px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  #header .inner_header .right_side-header > .btn_header {
+    display: none; }
+
+  #header .inner_header .right_side-header .mnu-top > li a {
+    padding: 5px 30px 5px 0; }
+
+  #header .inner_header .right_side-header .mnu-top > li.has_sab-menu::after {
+    right: 15px; }
+
+  .main-banner {
+    padding: 50px 0 170px; }
+
+  .main-banner .img-responsive {
+    margin: 0 auto;
+    max-width: 80%; }
+
+  .main-banner .mb-info > h1 {
+    font-size: 40px; }
+
+  section {
+    padding: 60px 0; }
+
+  #advantages .heading_main .description {
+    font-size: 16px; }
+
+  .row_adv > div {
+    width: 50%; }
+  .row_adv .item_adv {
+    text-align: center;
+    max-width: 240px;
+    margin: 0 auto; }
+
+  #advantages .row_adv .item_adv > .heading {
+    margin: 10px 0;
+    font-size: 22px; }
+
+  #advantages .row_adv .item_adv > .descr {
+    font-size: 14px; }
+
+  .products .img-responsive {
+    display: none; }
+
+  .products .right_info {
+    padding: 0 10px;
+    text-align: center; }
+    .products .right_info .notif {
+      margin: 0 auto; }
+
+  .products .right_info > h3, #pre_footer .pf_info > h4,
+  #advantages .heading_main h2 {
+    font-size: 34px; }
+
+  #reviews .item_rev > .quotes {
+    font-size: 16px;
+    height: 80px; }
+
+  #footer {
+    padding: 30px 0; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .hamburger {
+    display: block; }
+
+  #header {
+    position: relative;
+    padding-top: 14px; }
+    #header .inner_header .right_side-header .mnu_top {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 70px;
+      width: 100%;
+      -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+              box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+      background-color: #fff;
+      padding: 10px 0;
+      z-index: 11; }
+      #header .inner_header .right_side-header .mnu_top > li {
+        display: block; }
+        #header .inner_header .right_side-header .mnu_top > li > a {
+          padding: 5px 15px; }
+        #header .inner_header .right_side-header .mnu_top > li > .sub_menu {
+          display: block;
+          position: relative;
+          top: auto;
+          -webkit-box-shadow: none;
+                  box-shadow: none;
+          -webkit-animation: none;
+                  animation: none;
+          padding-left: 15px; }
+
+  #header .inner_header .right_side-header .mnu-top > li.has_sab-menu::after {
+    display: none; }
+
+  #top-baner {
+    background-color: #F5FAFF;
+    background: none !important; }
+    #top-baner .main-banner {
+      padding: 20px 0 50px; }
+
+  .notif {
+    margin: 0 auto; }
+
+  .main-banner .mb-info {
+    text-align: center; }
+    .main-banner .mb-info > h1 {
+      font-size: 30px; }
+    .main-banner .mb-info .description {
+      font-size: 14px; }
+
+  .main-banner .mb-info > .btns {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .main-banner .mb-info > .btns > a {
+      display: block;
+      width: 100%; }
+    .main-banner .mb-info > .btns > .btn_white {
+      margin: 0;
+      margin-top: 10px; }
+
+  #advantages .notif {
+    font-size: 14px; }
+
+  section {
+    padding: 35px 0; }
+
+  #advantages .heading_main {
+    margin: 25px 0; }
+
+  .products .right_info > h3, #pre_footer .pf_info > h4, #advantages .heading_main h2 {
+    font-size: 25px; }
+
+  #advantages .heading_main .description {
+    font-size: 13px; }
+
+  .row_adv > div {
+    width: 100%;
+    margin-bottom: 30px; }
+    .row_adv > div:last-child {
+      margin-bottom: 0; }
+
+  #reviews {
+    padding: 80px 0 60px;
+    background-image: none !important; }
+    #reviews .line {
+      margin: 40px 0; }
+    #reviews .nav_rev {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      gap: 14px; }
+      #reviews .nav_rev div {
+        width: 30%; }
+
+  .pf_info {
+    margin-bottom: 90px; }
+
+  #pre_footer .form_wrapper > form {
+    width: 100%;
+    padding: 25px 10px 15px; }
+
+  #footer {
+    padding: 20px 0; }
+    #footer .row_flex .col_footer_1, #footer .row_flex .col_footer_3 {
+      text-align: center;
+      width: 100%; }
+    #footer .copyright {
+      margin-top: 40px; }
+    #footer .logo_info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 15px; }
+      #footer .logo_info .descr {
+        width: 100%; } }
+/*==========  Mobile First  ========== */
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /* */ }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /* */ }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /* */ }
